@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>masai doctor </title>
+</head>
+<body>
+    <form id="doctorForm">
+        <input type="text" id="Name" placeholder="Name" required>
+        <input type="text" id="Doctor ID" placeholder="Doctor ID" required>
+        <select id="select specialization" required>
+            <option value="Select Specialization">Select Specialization</option>
+            <option value="Dermatologist">Dermatologist</option>
+            <option value="Dentist">Dentist</option>
+            <option value="Gynecologist">Gynecologist</option>
+        </select>
+        <input type="number" id="experience" placeholder="Experience in years" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="mobile" placeholder="Mobile No." required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Doctor ID</th>
+                <th>Specialization</th>
+                <th>Experience (Years)</th>
+                <th>Email Address</th>
+                <th>Mobile Number</th>
+                <th>Role</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="doctorList"></tbody>
+   </table> 
+
+    <h4>Name Doctor ID Specialization Experience in Years Email Mobile No Role Delete</h4>
+</body>
+</html>
